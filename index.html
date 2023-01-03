@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function myFun(){
+            document.getElementById('title').innerHTML='JavaScript';
+        }
+    </script>
+    <title >First Html</title>
+</head>
+<body>
+    <h2>What can JavaScript Do?</h2>
+    <h1>What is <span id="title"> it</span></h1>
+   </h1>
+    <p id="demo">JavaScript can change HTML context</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML='Hello Kingo to JavaScript'">Click Me</button> <br/> <br/>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Change Me</button> <br/> <br/>  
+<button type="button" onclick="document.getElementById('demo').style.fontSize='10px'"> Reduce Me</button> <br/><br/>
+<button type="button" onclick="document.getElementById('demo').innerHTML='Back to my profession'">Back Me</button> <br/><br/>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Display Nothing</button><br/><br/>
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Display All</button><br/><br/>
+<button type="button" onclick="myFun()">Try it</button>
+<script>
+    document.getElementById('demo').innerHTML='My first javascript';
+</script>
+</body>
+</html>
